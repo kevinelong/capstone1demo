@@ -1,0 +1,35 @@
+* {
+    background-color: #00000011;
+    border: 1px solid black;
+    padding: 0.25rem;
+    margin: 0.25rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    min-height: 12rem;
+}
+nav{
+    min-height: 6rem;
+}
+.content{
+    min-height: 100rem;
+}
+.product,
+.products,
+.filter{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.filter{
+    min-width: 30%;
+    min-height: 100rem;
+}
+.products{
+    min-width: 60%;
+    min-height: 100rem;
+}
+.product {
+    min-width: 30%;
+    min-height: 12rem;
+}
