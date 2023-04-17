@@ -1,0 +1,78 @@
+<head>
+<style>
+    body{
+        background-color: #333333;
+    }
+    .login{
+        background-color: #996633;
+        color: #eeeeee;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 33vw;
+        height: 33vh;
+        position: absolute;
+        left: calc(50% - 16.5vw);
+        top: calc(50% - 16.5vh);
+        /* margin: auto; */
+        padding: 1rem;
+        box-shadow: 1rem 1rem 3rem black;
+    }
+
+    .login input{
+        width: 100%;
+    }
+    .login input[type=checkbox]{
+        width: auto;
+        width: 15px;
+        height: 15px;
+        padding: 0;
+        margin: 0;
+        vertical-align: bottom;
+        position: relative;
+        top: -1px;
+    }
+    .login label input {
+        display: inline-block;
+    }
+    label{
+        margin: 1rem;
+        display: block;
+    }
+    .login button{
+        padding: 1rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        right: 1rem;
+        font-size: 1.5rem;
+        color: #996633;
+    }
+    .login .title{
+        font-size: 1.5rem;
+    }
+</style>
+</head>
+<body>
+    <div class="login">
+        <div class="title">LOGIN</div>
+        <form method="post">
+            
+            <label>
+                Username:
+                <input placeholder="Username">    
+            </label>
+            
+            <label>
+                Password:
+                <input placeholder="Password">
+            </label>
+
+            <label>
+                <input type="checkbox"> <span>Remember Me</span>
+            </label>
+
+            <button>
+                Login
+            </button>
+        </form>
+    </div>
+</body>
